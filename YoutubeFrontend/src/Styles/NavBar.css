@@ -1,0 +1,76 @@
+/* Extra Small Devices */
+@media (min-width : 375px) and (max-width: 575px) {
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 70%;  
+        justify-content: space-between;  
+        gap: 10px; 
+        position: relative;
+        
+    }
+
+    .left-part {
+        width: 100%;
+        margin: 0%;
+        
+    }
+
+    .left-part > img {
+        max-width: 20px;
+    }
+
+    .left-part > h1 {
+        font-size: small;
+    }
+
+    .middle-part {
+        width:100%;
+        
+    }
+
+    .input-div {
+        width:300px ;
+
+    }
+
+    .input-div > input {
+        width:100%;
+        /* padding-right: 1rem; */
+        /* padding-left: 1rem; */
+    }
+
+    .input-div > button {
+        
+    }
+
+   .recording  {
+        display: none;
+
+    }
+
+    .recording-container {
+        display: none;
+    }
+    
+    .toggleIconContainer {
+        
+      
+    }
+    
+        .showContainer {
+            position: absolute;
+            left: 1rem;
+            top: 20px;
+            z-index: 1;
+            width: fit-content;
+            
+            /* transform: scale(0.8); */
+            height: max-content;
+            
+        }
+
+
+}
+
+
